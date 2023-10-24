@@ -1,5 +1,4 @@
 public class BinarySearch {
-
 	public static int binarySearch(int[] arr, int item) {
 		int low = 0, high = arr.length - 1;
 		int mid;
