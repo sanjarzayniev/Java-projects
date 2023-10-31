@@ -1,6 +1,6 @@
 # Average
 
-The purpose of this program is to find the average value of input integer values.
+The purpose of this program is to find the average value of input integer values. When the user inputs 0, program automatically stops and starts calculating the average value(not including zero).
 
 ### Examples
 
