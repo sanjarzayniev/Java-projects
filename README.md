@@ -1,3 +1,4 @@
-# Java-projects
-
-![](https://github.com/sanjarzayniev/Java-projects/blob/main/GIF/GIF.gif)
+<p align = "center">
+  <img src = "GIF/GIF.gif" 
+   alt = "animated" />
+</p>
