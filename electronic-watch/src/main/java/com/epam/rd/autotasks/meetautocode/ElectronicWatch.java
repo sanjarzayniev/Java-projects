@@ -1,4 +1,4 @@
-package org.example;
+package com.epam.rd.autotasks.meetautocode;
 
 import java.util.Scanner;
 
@@ -20,7 +20,6 @@ public class ElectronicWatch {
     }
 
     public static void main(String[] args) {
-        System.out.print("Input the total seconds : ");
         Scanner scanner = new Scanner(System.in);
         int totalSeconds = scanner.nextInt();
         int hours = totalSeconds / 3600;
@@ -28,10 +27,12 @@ public class ElectronicWatch {
         int seconds = totalSeconds - 3600 * hours - 60 * minutes;
         int days = hours / 24;
         if (hours >= 24) {
+
             hours = hours - 24 * days;
         }
 
-        System.out.println(hours + ":" + putZeroForMinute(minutes)+ minutes + ":" + putZeroForSecond(seconds) + seconds);
+        System.out
+                .println(hours + ":" + putZeroForMinute(minutes) + minutes + ":" + putZeroForSecond(seconds) + seconds);
         scanner.close();
     }
 }
